@@ -50,6 +50,24 @@
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
+  margin-top: 12px;
+}
+
+/* Tela cadastro */
+.input-img-email input {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.input-img-telefone input {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .custom-button {

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/login/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="../styles/cadastro/cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <header class="header">
@@ -25,17 +26,22 @@
                     <input type="text" id="username" name="username" placeholder="Username" required>
                 </label>
                 <br><br>
+
+                <label class="input-img-email">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </label>
+                <br><br>
+
+                <label class="input-img-telefone">
+                    <input type="tel" id="telefone" name="telefone" placeholder="Phone" required>
+                </label>
                 
                 <label class="input-img-senha">  
                     <input type="password" id="senha" name="senha" placeholder="Password" required>
                 </label>
                 <br><br>
                 
-                <input class="custom-button" type="submit" value="Login">
-
-                <p class="cadastro-link">
-                    Dont have an account? <a href="../pages/cadastro.html">Sign up</a>.
-                </p>
+                <input class="custom-button" type="submit" value="Sign up">
             </form>
         </div>
     </section>
@@ -78,6 +84,6 @@
         <img class="imgs" src="../assets/imgs/twitter.png" alt="logo-twitter">
         <img class="imgs" src="../assets/imgs/insagram.png" alt="logo-instagram">
     </div>
-
+    
 </body>
 </html>
