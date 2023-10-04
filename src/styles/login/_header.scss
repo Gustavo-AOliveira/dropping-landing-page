@@ -1,0 +1,23 @@
+.header {
+    background: #ffff;
+}
+.header__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 2em;
+    font-family: 'Jost', sans-serif;
+    margin-right: 50px;
+
+}
+.list__item {
+    text-decoration: none;
+    color: black;
+}
+@media(max-width: 830px) {
+    .header__list {
+        gap: 1em;
+    }
+}
