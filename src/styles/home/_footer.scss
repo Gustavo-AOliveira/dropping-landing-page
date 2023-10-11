@@ -6,7 +6,7 @@
     display: flex;
     gap: 150px;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
     height: 50vh;
     font-family: 'Jost', sans-serif;
 }
@@ -19,6 +19,8 @@
 }
 .list__item {
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
 }
 .footer__direitos {
     color: black;

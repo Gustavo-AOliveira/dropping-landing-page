@@ -29,3 +29,15 @@
     max-width: 600px;
     padding-right: 8rem;
 }
+
+@media(max-width:1220px) {
+    .s1-img{
+        display: none;
+    }
+    .s1-texto {
+        display: none;
+    }
+    .s1-btn {
+        display: none;
+    }
+}

@@ -1,0 +1,51 @@
+.s3 {
+    height: 100vh;
+    background-image: url(../../assets/imgs/Section03-adidas\ 1.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    position: relative;
+}
+.s3-titulo {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-size: 30px;
+    margin-right: 23em;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+
+.s3-btn {
+    text-decoration: none;
+    position: absolute;
+    top: 430px;
+    left: 80px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+@media(max-width:1220px){
+    .s3 {
+        background-image: none;
+        height: 0;
+    }
+    .s3-btn {
+        display: none;
+    }
+    .s3-titulo {
+        display: none;
+    }
+    .s2-ims-responsiva {
+        display: none;
+    }
+    .s2-imgs{
+        .s2-imgs-terceira2 {
+            display: none;
+        }
+    }
+}
